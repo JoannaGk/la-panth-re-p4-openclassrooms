@@ -2,9 +2,11 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
-    overflow-x: hidden;
+    box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    list-style: none;
+    text-decoration: none;
 }
 
 a,
@@ -869,7 +871,7 @@ h4 {
     }
     .page-container,
     #hero-bloc {
-        overflow-x: hidden;
+        box-sizing: border-box;
         position: relative;
     }
     .bloc {
@@ -891,7 +893,7 @@ h4 {
 
 @media (max-width: 767px) {
     .page-container {
-        overflow-x: hidden;
+        box-sizing: border-box;
         position: relative;
     }
     h1,
@@ -957,7 +959,7 @@ h4 {
     }
     .navbar-collapse {
         padding: 0;
-        overflow-x: hidden;
+        box-sizing: border-box;
         -webkit-box-shadow: none;
         box-shadow: none;
     }
