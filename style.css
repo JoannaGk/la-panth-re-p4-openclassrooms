@@ -344,8 +344,9 @@ a:hover {
     border: 0px;
 }
 
+#nav-toggle:hover,
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
