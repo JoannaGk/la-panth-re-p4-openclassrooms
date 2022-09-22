@@ -8075,3 +8075,15 @@ button.close {
         display: none !important
     }
 }
+
+blockquote p {
+    font-weight: 400;
+    font-size: large;
+}
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
